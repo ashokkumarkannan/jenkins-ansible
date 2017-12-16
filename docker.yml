@@ -25,7 +25,7 @@
     - name: Launch docker container
       docker_container:
         name: bottlecontainer
-        image: ashokkumarkannan/ansibleimage:latest
+        image: ashokkumarkannan/testapp:v1
         ports:
           - "4040:8080"
 
